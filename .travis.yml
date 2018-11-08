@@ -1,3 +1,3 @@
 language: java
-sudo: false
-script: ./awsScript.sh
+sudo: true
+script: chmod 777 awsScript.sh && ./awsScript.sh
